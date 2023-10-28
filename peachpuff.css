@@ -1,0 +1,43 @@
+/*
+ * Obsidian Snippet
+ * Peachpuff theme
+ * Author: Emil Freme
+ * Date: 10/2023
+ */
+.theme-dark{
+    --color-base-00: #ffdab6;
+    --color-base-05: #ebc6a8;
+    --color-base-10: #e6c1a3;
+    --color-base-15: #deda9e;
+    --color-base-20: #d9d59a;
+    --color-base-25: #d1af94;
+    --color-base-30: #ccaa91;
+    --color-base-35: #c4a48b;
+    --color-base-40: #bfa088;
+    --color-base-50: #b3957f;
+    --color-base-60: #a68b76;
+    --color-base-70:  #99806d;
+    --color-base-100: #806b5b;
+    --background-primary: #ffdab6;
+    --background-secondary-alt: #ffdab6;
+    --background-modifier-form-field: #ffdab6;
+
+
+    --text-normal: #000000;
+    --icon-color: #2a2a2a;
+
+    --code-background: #ffe3b6; 
+    --code-normal: #000000;
+    --code-comment: #406090;
+    --code-function: #6a5acd;
+    --code-important: #e157c5;
+    --code-keyword: #a52a2a;
+    --code-operator: #a52a2a;
+    --code-property: #008b8b;
+    --code-puctuation: #6a5acd;
+    --code-string: #c00058;
+    --code-tag: #c00058;
+    --code-value: #c00058;
+
+
+}
