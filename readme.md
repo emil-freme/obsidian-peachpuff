@@ -1,6 +1,6 @@
-#Obsidian Peachpuff
+# Obsidian Peachpuff
 
-# WIP
+## WIP
 
 Vim's Peachpuff adapted to Obsidian.
 
