@@ -27,7 +27,7 @@
     --text-normal: #000000;
     --icon-color: #2a2a2a;
 
-    --code-background: #ffe3b6; 
+    --code-background: var(--background-primary)
     --code-normal: #000000;
     --code-comment: #406090;
     --code-function: #6a5acd;
@@ -44,4 +44,26 @@
     --nav-item-weight-active: 700;
     --background-modifier-hover: rgb(205 180 250 / 30%);
 
+    --code-border-color: #7b99a5;
+    --code-border-size: 2px;
 }
+
+/* Add border to codeblocks */
+.markdown-rendered pre {
+    border:    var(--code-border-size) solid var(--code-border-color);
+}
+.cm-s-obsidian div.HyperMD-codeblock-begin-bg,
+.cm-s-obsidian div.HyperMD-codeblock-bg, 
+.cm-s-obsidian div.HyperMD-codeblock-end-bg{
+    border-left:    var(--code-border-size) solid var(--code-border-color);
+    border-right:   var(--code-border-size) solid var(--code-border-color);
+}
+
+.cm-s-obsidian div.HyperMD-codeblock-begin-bg{
+    border-top:     var(--code-border-size) solid var(--code-border-color);
+}
+.cm-s-obsidian div.HyperMD-codeblock-end-bg{
+    border-bottom:  var(--code-border-size) solid var(--code-border-color);
+}
+
+
