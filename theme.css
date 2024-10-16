@@ -4,7 +4,7 @@
  * Author: Emil Freme
  * Date: 10/2023
  */
-.theme-dark{
+.theme-light{
     --color-base-00: #ffdab6;
     --color-base-05: #ebc6a8;
     --color-base-10: #e6c1a3;
@@ -19,6 +19,7 @@
     --color-base-70:  #99806d;
     --color-base-100: #806b5b;
     --background-primary: #ffdab6;
+    --background-secondary:#E6C4A3;
     --background-secondary-alt: #ffdab6;
     --background-modifier-form-field: #ffdab6;
 
@@ -39,5 +40,8 @@
     --code-tag: #c00058;
     --code-value: #c00058;
 
+
+    --nav-item-weight-active: 700;
+    --background-modifier-hover: rgb(205 180 250 / 30%);
 
 }
